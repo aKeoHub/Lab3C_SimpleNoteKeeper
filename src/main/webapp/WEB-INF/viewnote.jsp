@@ -3,7 +3,7 @@
     Created on : 28-Jan-2022, 12:09:41 PM
     Author     : Kingston
 --%>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -15,10 +15,10 @@
         <h1>Simple Note Keeper</h1>
         <h1>View Note</h1>
         
-    <p>Title: This is the title</p>
+    <p>Title: <c:out value="${note.title}" /></p>
     <p>Contents:</p>
-    <p>Contents go here</p>
+    <p><c:out value="${note.contents}" /></p>
     
-    <a href="">?edit</a>
+    <a href="">Edit</a>
     </body>
 </html>
