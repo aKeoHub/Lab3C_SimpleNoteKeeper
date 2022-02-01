@@ -9,15 +9,18 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="/Lab3C_SimpleNoteKeeper/css/style.css" rel="stylesheet"></link>
         <title>JSP Page</title>
     </head>
     <body>
+        <h1>Simple Note Keeper</h1>
         <h1>Edit Note</h1>
         
         <form action="note" method="post"> 
-            <input type="text" name ="title" id="title" placeholder="Title">
-            <input type="text" name ="contents" id="contents" placeholder="Contents">
-            
-            <button type="submit">Submit</button> 
+            <label for="title">Title: <input type="text" name ="title" id="title" placeholder="Title" value="This is the title">
+            <br>
+            <label for="contents">Contents: <textarea type="text" name ="contents" id="contents" placeholder="Contents">Contents go here</textarea>
+                <br>
+            <button type="submit">Save</button> 
     </body>
 </html>

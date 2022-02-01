@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 31-Jan-2022, 5:15:41 PM
+    Author     : Kingston
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap');
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+body {
+    font-size: 30px;
+    background-color: #00cccc; 
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
+
+p {
+    font-weight: bold;
+}
